@@ -37,17 +37,16 @@ jobs:
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run generate:gif
-
       - name: Commit and push demo GIF
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Try to add the generated GIF; ignore errors if the file doesn't exist
+          mkdir -p docs/assets
           git add docs/assets/pacman-demo.gif || true
-          # If there are any changes, commit and push
-          if [ -n "$(git status --porcelain)" ]; then
+          # Only commit if there are staged changes
+          if ! git diff --cached --quiet; then
             git commit -m "ci: update Pac-Man demo [skip ci]"
             git push
           else
-            echo "No changes to commit"
+            echo "No demo GIF changes to commit"
           fi
