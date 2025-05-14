@@ -1,16 +1,27 @@
-## Hi there 👋
+# 👋 Hi, I’m Veneka
 
-<!--
-**Dani-Nade/Dani-Nade** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Full-Stack Engineer | React · Node.js · Kubernetes**
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on **PulmoGuard AI** (healthcare monitoring)
+- 🌱 I’m learning **Go** and **Terraform**
+- 💬 Ask me about **Docker**, **Kubernetes**, **GitHub Actions**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Tech Stack
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript)
+![React](https://img.shields.io/badge/-React-20232A?logo=react)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js)
+
+---
+
+## 📂 Featured Projects
+| Project | Description             | Tech              |
+|---------|-------------------------|-------------------|
+| [Todo App](https://github.com/veneka/todo-app) | A MERN stack TODO app with real-time updates | React · Node · MongoDB |
+| [SDN Simulator](https://github.com/veneka/sdn-sim) | OMNeT++ SDN campus network simulation    | C++ · OMNeT++      |
+
+---
+
+## 📈 Stats
+![Veneka’s GitHub stats](https://github-readme-stats.vercel.app/api?username=veneka&show_icons=true)
