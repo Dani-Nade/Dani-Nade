@@ -39,21 +39,25 @@
 ---
 
 ## 📂 Featured Projects
-| Project                                                                 | Tech Stack                        | Live Demo                     |
-|-------------------------------------------------------------------------|-----------------------------------|-------------------------------|
-| [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify            |
-| [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                | OMNeT++ · C++                     | —                             |
-| [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online             |
+| Project                                                                 | Tech Stack                        | Live Demo                                         |
+|-------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------|
+| [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify                                |
+| [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                 | OMNeT++ · C++                     | —                                                 |
+| [🏆 Pac-Man Repo Runner](https://Dani-Nade.github.io/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Embedded Below                                 |
 
 ---
 
 ## 🎮 Play “Repo-Eater” Pac-Man
-<p align="center">
-  <a href="https://Dani-Nade.github.io/pacman-repo/">
-    <img src="./assets/pacman-thumb.gif" alt="Play Pac-Man" width="400"/>
-  </a>
-</p>
-> Click the thumbnail—Pac-Man will gobble down your repo’s file-dots!
+
+<iframe
+  src="https://Dani-Nade.github.io/pacman-repo/"
+  width="100%"
+  height="500"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+
+> Pac-Man will gobble down your repo’s file-dots and then auto-restart forever!
 
 ---
 
