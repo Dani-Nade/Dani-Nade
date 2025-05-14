@@ -1,7 +1,5 @@
-# .github/workflows/pacman-animation.yml
 name: Generate Pac-Man Demo GIF
 
-# grant write access to repo contents
 permissions:
   contents: write
 
@@ -41,6 +39,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/pacman-demo.gif
+          git add docs/assets/pacman-demo.gif
           git diff --quiet || git commit -m "ci: update Pac-Man demo [skip ci]"
           git push
