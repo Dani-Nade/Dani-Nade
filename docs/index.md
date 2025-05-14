@@ -3,7 +3,7 @@ layout: default
 title: "Dani-Nade Portfolio"
 ---
 
-<!-- Banner -->
+<!-- pacman-banner.gif -->
 <p align="center">
   <img src="./assets/pacman-banner.gif" alt="Pac-Man Banner" width="800"/>
 </p>
@@ -12,29 +12,38 @@ title: "Dani-Nade Portfolio"
 
 **Full-Stack Engineer • DevOps • Game Dev**
 
-<p align="center">
-  <a href="https://github.com/Dani-Nade?tab=followers">
-    <img src="https://img.shields.io/github/followers/Dani-Nade?label=Follow&style=social" alt="GitHub Followers"/>
-  </a>
-  <a href="https://twitter.com/YourHandle">
-    <img src="https://img.shields.io/twitter/follow/YourHandle?style=social" alt="Twitter Follow"/>
-  </a>
-</p>
-
 ---
 
 ## 🎮 Repo-Eater Pac-Man Demo
 
-<p align="center">
-  <!-- Embed the full game canvas here -->
-  <iframe
-    src="./pacman-repo/index.html"
-    width="100%"
-    height="600"
-    frameborder="0"
-    style="border:4px solid #FFD700; box-shadow:0 0 30px rgba(255,215,0,0.6);"
-  ></iframe>
-</p>
+<!-- <<< Add this style block at the top of your markdown >>> -->
+<style>
+.pacman-container {
+  /* full width, but no wider than 1000px (or your canvas width) */
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.pacman-container iframe {
+  /* aspect ratio = columns / rows; adjust 35/7 to your actual grid size */
+  aspect-ratio: 35 / 7;
+  width: 100%;
+  height: auto;
+  border: 4px solid #FFD700;
+  box-shadow: 0 0 30px rgba(255,215,0,0.6);
+  border-radius: 4px;
+  display: block;
+}
+</style>
+
+<div class="pacman-container">
+  <iframe 
+    src="./pacman-repo/index.html" 
+    title="Repo-Eater Pac-Man" 
+    allow="fullscreen">
+  </iframe>
+</div>
 
 > The game will auto-restart every time Pac-Man eats all your repo-dots!
 
