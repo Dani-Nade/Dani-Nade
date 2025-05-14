@@ -1,8 +1,7 @@
-# .github/workflows/pacman-animation.yml
 name: Generate Pac-Man Demo GIF
 
 permissions:
-  contents: write   # needed so GITHUB_TOKEN can push
+  contents: write
 
 on:
   schedule:
@@ -17,38 +16,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout the repo & allow pushing back
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           persist-credentials: true
           fetch-depth: 0
 
-      # 2. Ensure docs/assets exists so the GIF has somewhere to go
       - name: Ensure docs/assets directory
         run: mkdir -p docs/assets
 
-      # 3. Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
 
-      # 4. Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 5. Generate the GIF into docs/assets/
       - name: Generate Pac-Man demo GIF
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run generate:gif
 
-      # 6. Commit & push the new GIF
       - name: Commit and push demo GIF
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/assets/pacman-demo.gif
-          git diff --quiet || git commit -m "ci: update Pac-Man demo [skip ci]"
-          git push
+          # Try to add the generated GIF; ignore errors if the file doesn't exist
+          git add docs/assets/pacman-demo.gif || true
+          # If there are any changes, commit and push
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "ci: update Pac-Man demo [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
