@@ -1,3 +1,4 @@
+# .github/workflows/pacman-animation.yml
 name: Generate Pac-Man Demo GIF
 
 on:
@@ -11,13 +12,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      # 1. Checkout the repo, persist the GITHUB_TOKEN for pushes
+      # 1. Checkout repository and persist the GITHUB_TOKEN
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true   # <— allows later git push to authenticate
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true  # <-- this makes git push use GITHUB_TOKEN
+          fetch-depth: 0            # full history
 
       # 2. Set up Node.js
       - name: Set up Node.js
@@ -29,13 +31,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Run the Pac-Man recording script
+      # 4. Generate the GIF
       - name: Generate Pac-Man demo GIF
-        run: npm run generate:gif
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run generate:gif
 
-      # 5. Commit and push the generated GIF
+      # 5. Commit & push the demo GIF
       - name: Commit and push demo GIF
         run: |
           git config user.name  "github-actions[bot]"
@@ -43,4 +45,3 @@ jobs:
           git add dist/pacman-demo.gif
           git diff --quiet || git commit -m "ci: update Pac-Man demo [skip ci]"
           git push
-        # No explicit token here because credentials are already persisted
