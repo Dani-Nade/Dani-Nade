@@ -49,12 +49,19 @@
 
 ## 🎮 Repo-Eater Pac-Man Demo
 
+<!-- First try to display the generated GIF -->
 <p align="center">
-  <img src="./dist/pacman-demo.gif" alt="Pac-Man Demo" width="400"/>
+  <img src="./dist/pacman-demo.gif" alt="Pac-Man Demo" width="400" />
 </p>
 
-> Click the thumbnail above to launch the full interactive game in a new tab:  
-> [▶️ Play Pac-Man](https://dani-nade.github.io/Dani-Nade/pacman-repo/)
+<!-- Fallback: if the GIF isn’t present yet, show a clickable thumbnail -->
+<p align="center">
+  <a href="https://dani-nade.github.io/Dani-Nade/pacman-repo/" target="_blank">
+    <img src="./assets/pacman-thumb.gif" alt="Play Pac-Man" width="400" />
+  </a>
+</p>
+
+> Click the thumbnail above to launch the full interactive game in a new tab.
 
 ---
 
