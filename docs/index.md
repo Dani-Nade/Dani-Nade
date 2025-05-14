@@ -3,7 +3,7 @@ layout: default
 title: "Dani-Nade Portfolio"
 ---
 
-<!-- assets/pacman-banner.gif -->
+<!-- Banner -->
 <p align="center">
   <img src="./assets/pacman-banner.gif" alt="Pac-Man Banner" width="800"/>
 </p>
@@ -26,12 +26,22 @@ title: "Dani-Nade Portfolio"
 ## 🎮 Repo-Eater Pac-Man Demo
 
 <p align="center">
-  <img src="./assets/pacman-demo.gif" alt="Pac-Man Demo" width="400"/>
+  <!-- Embed the full game canvas here -->
+  <iframe
+    src="./pacman-repo/index.html"
+    width="100%"
+    height="600"
+    frameborder="0"
+    style="border:4px solid #FFD700; box-shadow:0 0 30px rgba(255,215,0,0.6);"
+  ></iframe>
 </p>
 
-> Click the thumbnail above to launch the full interactive game in a new tab:  
-> [▶️ Play Pac-Man](https://dani-nade.github.io/Dani-Nade/pacman-repo/)
+> The game will auto-restart every time Pac-Man eats all your repo-dots!
 
 ---
 
-<!-- rest of your README content… -->
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Dani-Nade&show_icons=true&theme=radical"/>
+</p>
