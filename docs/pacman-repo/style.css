@@ -1,3 +1,11 @@
-* { margin: 0; padding: 0; }
-body { background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
-canvas { border: 2px solid #fff; }
+/* full-screen gradient with centered canvas */
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body {
+  width:100%; height:100%;
+  background: linear-gradient(135deg, #050027, #2e0057);
+  display:flex; justify-content:center; align-items:center;
+}
+canvas {
+  border:4px solid #FFD700;
+  box-shadow:0 0 30px rgba(255,215,0,0.6);
+}

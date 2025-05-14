@@ -1,0 +1,27 @@
+{
+  "name": "dani-nade",
+  "version": "1.0.0",
+  "description": "Pac-Man Repo-Eater demo and automation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "generate:gif": "node generate-pacman.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dani-Nade/Dani-Nade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dani-Nade/Dani-Nade/issues"
+  },
+  "homepage": "https://github.com/Dani-Nade/Dani-Nade#readme",
+  "dependencies": {
+    "gifencoder": "^2.0.1",
+    "puppeteer": "^19.0.0"
+  }
+}

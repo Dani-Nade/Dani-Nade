@@ -43,6 +43,7 @@
 |-------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------|
 | [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify                                |
 | [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                 | OMNeT++ · C++                     | —                                                 |
+<<<<<<< HEAD
 | [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Embedded Below                                 |
 
 ---
@@ -58,6 +59,20 @@
 ></iframe>
 
 > Pac-Man will gobble down your repo’s file-dots and then auto-restart forever!
+=======
+| [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/pacman-repo/) | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online                                 |
+
+---
+
+## 🎮 Repo-Eater Pac-Man Demo
+
+<p align="center">
+  <img src="./dist/pacman-demo.gif" alt="Pac-Man Demo" width="400"/>
+</p>
+
+> Click above to launch the full interactive game in a new tab:  
+> [▶️ Play Pac-Man](https://dani-nade.github.io/Dani-Nade/pacman-repo/)
+>>>>>>> c2e48a3 (chore: setup Pac-Man demo automation and update package.json)
 
 ---
 
