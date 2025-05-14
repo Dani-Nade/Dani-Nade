@@ -50,7 +50,7 @@
 ## 🎮 Play “Repo-Eater” Pac-Man
 
 <iframe
-  src="https://Dani-Nade.github.io/pacman-repo/"
+  src="https://Dani-Nade.github.io/docs/pacman-repo/"
   width="100%"
   height="500"
   frameborder="0"
