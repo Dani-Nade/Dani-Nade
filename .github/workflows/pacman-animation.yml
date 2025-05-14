@@ -1,10 +1,9 @@
-# .github/workflows/pacman-animation.yml
 name: Generate Pac-Man Demo GIF
 
 on:
   schedule:
-    - cron: '0 0 * * *'        # daily at midnight UTC
-  workflow_dispatch:           # manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -13,11 +12,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Check out the repository
+      # 1. Checkout the repo, persist the GITHUB_TOKEN for pushes
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true   # <— allows later git push to authenticate
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Set up Node.js (for Puppeteer & GIFEncoder)
+      # 2. Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -29,17 +31,16 @@ jobs:
 
       # 4. Run the Pac-Man recording script
       - name: Generate Pac-Man demo GIF
+        run: npm run generate:gif
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: npm run generate:gif
 
       # 5. Commit and push the generated GIF
-      - name: Commit demo GIF
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push demo GIF
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/pacman-demo.gif
-          git diff --quiet && echo "No changes to commit" || git commit -m "ci: update Pac-Man demo [skip ci]"
-          git push origin main
+          git diff --quiet || git commit -m "ci: update Pac-Man demo [skip ci]"
+          git push
+        # No explicit token here because credentials are already persisted
