@@ -4,23 +4,27 @@
   <meta charset="UTF-8"/>
   <title>Pac-Man Repo-Eater</title>
 
-  <!-- game CSS -->
   <link rel="stylesheet" href="style.css"/>
-
-  <!-- wrapper & scaling styles -->
   <style>
+    /* Make this wrapper fill the window width exactly */
     .game-wrapper {
-      /* native maze width: 35 cols × 24px tile = 840px */
-      max-width: 840px;
-      margin: 2rem auto;
+      width: 100vw;                  /* full browser width */
+      height: calc(100vw * 7 / 35);  /* preserve the 7:35 ratio */
+      margin: 0;                     /* no extra margins */
       border: 4px solid #FFD700;
       box-shadow: 0 0 30px rgba(255,215,0,0.6);
-      overflow: hidden;         /* hide any overflow */
+      overflow: hidden;              /* hide any overflow */
     }
     .game-wrapper canvas {
-      width: 100%;              /* fill wrapper width */
-      height: auto;             /* preserve 35:7 aspect ratio */
+      width: 100%;                   /* fill wrapper horizontally */
+      height: 100%;                  /* fill wrapper vertically */
       display: block;
+    }
+    /* Remove page scrollbars if any */
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
     }
   </style>
 </head>
