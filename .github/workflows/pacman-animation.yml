@@ -1,6 +1,10 @@
 # .github/workflows/pacman-animation.yml
 name: Generate Pac-Man Demo GIF
 
+# grant write access to repo contents
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -14,30 +18,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Checkout repository and persist the GITHUB_TOKEN
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true  # <-- this makes git push use GITHUB_TOKEN
-          fetch-depth: 0            # full history
+          persist-credentials: true
+          fetch-depth: 0
 
-      # 2. Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4. Generate the GIF
       - name: Generate Pac-Man demo GIF
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: npm run generate:gif
 
-      # 5. Commit & push the demo GIF
       - name: Commit and push demo GIF
         run: |
           git config user.name  "github-actions[bot]"
