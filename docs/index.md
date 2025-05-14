@@ -1,29 +1,19 @@
----
-layout: default
-title: "Dani-Nade Portfolio"
----
-
 <style>
 .pacman-container {
-  /* fill the full width of the page */
-  width: 100%;
-  /* cap at your game’s native pixel width if you like, e.g. 840px */
-  max-width: 840px;
-  margin: 2rem auto;
+  /* fill the full viewport width */
+  width: 100vw;
+  /* calculate height so the full 7/35 ratio fits */
+  height: calc(100vw * 7 / 35);
+  overflow: hidden;           /* hide any overshoot */
+  margin: 2rem auto;          /* center with some top/bottom space */
 }
 
 .pacman-container iframe {
-  /* make the iframe scale to exactly the container’s width */
-  width: 100%;
-  /* height auto preserves the aspect ratio */
-  height: auto;
-
-  /* styling to match your canvas border/glow */
   border: 4px solid #FFD700;
   box-shadow: 0 0 30px rgba(255,215,0,0.6);
+  width: 100%;
+  height: 100%;
   display: block;
-
-  /* no internal scrollbars */
   overflow: hidden;
 }
 </style>
