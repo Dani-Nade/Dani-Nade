@@ -43,14 +43,14 @@
 |-------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------|
 | [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify                                |
 | [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                 | OMNeT++ · C++                     | —                                                 |
-| [🏆 Pac-Man Repo Runner](https://github.com/Dani-Nade/Dani-Nade/tree/main/docs/pacman-repo)       | HTML · CSS · JS · GitHub Pages    | 🔗 Embedded Below                                 |
+| [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Embedded Below                                 |
 
 ---
 
 ## 🎮 Play “Repo-Eater” Pac-Man
 
 <iframe
-  src="https://github.com/Dani-Nade/Dani-Nade/tree/main/docs/pacman-repo"
+  src="https://dani-nade.github.io/Dani-Nade/pacman-repo/"
   width="100%"
   height="500"
   frameborder="0"
