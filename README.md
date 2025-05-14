@@ -1,6 +1,4 @@
-<!-- 📍 Place this in veneka/veneka’s README.md -->
-
-<!-- ► Top Banner -->
+<!-- assets/pacman-banner.gif -->
 <p align="center">
   <img src="./assets/pacman-banner.gif" alt="Pac-Man Banner" width="800"/>
 </p>
@@ -10,7 +8,6 @@
 **Full-Stack Engineer • DevOps • Game Dev**
 
 <p align="center">
-  <!-- Follow and Social -->
   <a href="https://github.com/veneka?tab=followers">
     <img src="https://img.shields.io/github/followers/veneka?label=Follow&style=social" alt="GitHub Followers"/>
   </a>
@@ -46,7 +43,7 @@
 |-------------------------------------------------------------------------|-----------------------------------|--------------------|
 | [📝 MERN To-Do App](https://github.com/veneka/todo-app)                   | React · Express · MongoDB         | ✅ Live on Netlify |
 | [🌐 SDN Simulator](https://github.com/veneka/sdn-sim)                    | OMNeT++ · C++                     | —                  |
-| [🏆 Pac-Man Repo Runner](https://veneka.github.io/pacman-repo)           | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online  |
+| [🏆 Pac-Man Repo Runner](https://veneka.github.io/pacman-repo/)           | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online  |
 
 ---
 
