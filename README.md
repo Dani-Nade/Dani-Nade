@@ -3,13 +3,13 @@
   <img src="./assets/pacman-banner.gif" alt="Pac-Man Banner" width="800"/>
 </p>
 
-# 👋 Hey, I'm Veneka
+# 👋 Hey, I’m Dani-Nade
 
 **Full-Stack Engineer • DevOps • Game Dev**
 
 <p align="center">
-  <a href="https://github.com/veneka?tab=followers">
-    <img src="https://img.shields.io/github/followers/veneka?label=Follow&style=social" alt="GitHub Followers"/>
+  <a href="https://github.com/Dani-Nade?tab=followers">
+    <img src="https://img.shields.io/github/followers/Dani-Nade?label=Follow&style=social" alt="GitHub Followers"/>
   </a>
   <a href="https://twitter.com/YourHandle">
     <img src="https://img.shields.io/twitter/follow/YourHandle?style=social" alt="Twitter Follow"/>
@@ -39,25 +39,25 @@
 ---
 
 ## 📂 Featured Projects
-| Project                                                                 | Tech Stack                        | Live Demo          |
-|-------------------------------------------------------------------------|-----------------------------------|--------------------|
-| [📝 MERN To-Do App](https://github.com/veneka/todo-app)                   | React · Express · MongoDB         | ✅ Live on Netlify |
-| [🌐 SDN Simulator](https://github.com/veneka/sdn-sim)                    | OMNeT++ · C++                     | —                  |
-| [🏆 Pac-Man Repo Runner](https://veneka.github.io/pacman-repo/)           | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online  |
+| Project                                                                 | Tech Stack                        | Live Demo                     |
+|-------------------------------------------------------------------------|-----------------------------------|-------------------------------|
+| [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify            |
+| [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                | OMNeT++ · C++                     | —                             |
+| [🏆 Pac-Man Repo Runner](https://Dani-Nade.github.io/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online             |
 
 ---
 
 ## 🎮 Play “Repo-Eater” Pac-Man
 <p align="center">
-  <a href="https://veneka.github.io/pacman-repo/">
+  <a href="https://Dani-Nade.github.io/pacman-repo/">
     <img src="./assets/pacman-thumb.gif" alt="Play Pac-Man" width="400"/>
   </a>
 </p>
-> Click the thumbnail to head over—Pac-Man will gobble down your repo’s file-dots!
+> Click the thumbnail—Pac-Man will gobble down your repo’s file-dots!
 
 ---
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=veneka&show_icons=true&theme=radical"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Dani-Nade&show_icons=true&theme=radical"/>
 </p>
