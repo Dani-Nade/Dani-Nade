@@ -5,21 +5,26 @@ title: "Dani-Nade Portfolio"
 
 <style>
 .pacman-container {
-  /* fill the parent width completely */
+  /* fill the full width of the page */
   width: 100%;
-  /* aspect ratio = columns / rows; here example is 35 cols by 7 rows */
-  aspect-ratio: 35 / 7;
-  margin: auto;
-  overflow: hidden;               /* hide any scrollbar */
+  /* cap at your game’s native pixel width if you like, e.g. 840px */
+  max-width: 840px;
+  margin: 2rem auto;
 }
 
 .pacman-container iframe {
+  /* make the iframe scale to exactly the container’s width */
+  width: 100%;
+  /* height auto preserves the aspect ratio */
+  height: auto;
+
+  /* styling to match your canvas border/glow */
   border: 4px solid #FFD700;
   box-shadow: 0 0 30px rgba(255,215,0,0.6);
   display: block;
-  width: 100%;                    /* fill horizontally */
-  height: 100%;                   /* fill vertically per aspect-ratio */
-  overflow: hidden;               /* no scrollbars inside */
+
+  /* no internal scrollbars */
+  overflow: hidden;
 }
 </style>
 
@@ -30,6 +35,5 @@ title: "Dani-Nade Portfolio"
     src="./pacman-repo/index.html"
     title="Repo-Eater Pac-Man"
     scrolling="no"
-    allowfullscreen
   ></iframe>
 </div>
