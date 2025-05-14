@@ -43,7 +43,7 @@
 |-------------------------------------------------------------------------|-----------------------------------|-------------------------------|
 | [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify            |
 | [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                | OMNeT++ · C++                     | —                             |
-| [🏆 Pac-Man Repo Runner](https://Dani-Nade.github.io/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online             |
+| [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online             |
 
 ---
 
