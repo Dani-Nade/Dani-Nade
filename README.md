@@ -20,12 +20,12 @@
 
 ## 🚀 Current Focus
 - Learning **Go**, **Terraform**, and **WebAssembly**  
-- Building container-native games with **PlayCanvas**  
+- Building container-native games with **PlayCanvas**
 
 ---
 
 ## 🛠️ Tech Stack
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript" alt="JS"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript" alt="TS"/>
   <img src="https://img.shields.io/badge/React-20232A?logo=react" alt="React"/>
@@ -43,23 +43,6 @@
 |-------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------|
 | [📝 MERN To-Do App](https://github.com/Dani-Nade/todo-app)               | React · Express · MongoDB         | ✅ Live on Netlify                                |
 | [🌐 SDN Simulator](https://github.com/Dani-Nade/sdn-sim)                 | OMNeT++ · C++                     | —                                                 |
-<<<<<<< HEAD
-| [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/docs/pacman-repo/)       | HTML · CSS · JS · GitHub Pages    | 🔗 Embedded Below                                 |
-
----
-
-## 🎮 Play “Repo-Eater” Pac-Man
-
-<iframe
-  src="https://dani-nade.github.io/Dani-Nade/pacman-repo/"
-  width="100%"
-  height="500"
-  frameborder="0"
-  allowfullscreen
-></iframe>
-
-> Pac-Man will gobble down your repo’s file-dots and then auto-restart forever!
-=======
 | [🏆 Pac-Man Repo Runner](https://dani-nade.github.io/Dani-Nade/pacman-repo/) | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online                                 |
 
 ---
@@ -70,9 +53,8 @@
   <img src="./dist/pacman-demo.gif" alt="Pac-Man Demo" width="400"/>
 </p>
 
-> Click above to launch the full interactive game in a new tab:  
+> Click the thumbnail above to launch the full interactive game in a new tab:  
 > [▶️ Play Pac-Man](https://dani-nade.github.io/Dani-Nade/pacman-repo/)
->>>>>>> c2e48a3 (chore: setup Pac-Man demo automation and update package.json)
 
 ---
 
