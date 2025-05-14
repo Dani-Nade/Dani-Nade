@@ -1,27 +1,66 @@
-# 👋 Hi, I’m Veneka
+<!-- 📍 Place this in veneka/veneka’s README.md -->
 
-**Full-Stack Engineer | React · Node.js · Kubernetes**
+<!-- ► Top Banner -->
+<p align="center">
+  <img src="./assets/pacman-banner.gif" alt="Pac-Man Banner" width="800"/>
+</p>
 
-- 🔭 I’m currently working on **PulmoGuard AI** (healthcare monitoring)
-- 🌱 I’m learning **Go** and **Terraform**
-- 💬 Ask me about **Docker**, **Kubernetes**, **GitHub Actions**
+# 👋 Hey, I'm Veneka
+
+**Full-Stack Engineer • DevOps • Game Dev**
+
+<p align="center">
+  <!-- Follow and Social -->
+  <a href="https://github.com/veneka?tab=followers">
+    <img src="https://img.shields.io/github/followers/veneka?label=Follow&style=social" alt="GitHub Followers"/>
+  </a>
+  <a href="https://twitter.com/YourHandle">
+    <img src="https://img.shields.io/twitter/follow/YourHandle?style=social" alt="Twitter Follow"/>
+  </a>
+</p>
+
+---
+
+## 🚀 Current Focus
+- Learning **Go**, **Terraform**, and **WebAssembly**  
+- Building container-native games with **PlayCanvas**  
 
 ---
 
 ## 🛠️ Tech Stack
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript)
-![React](https://img.shields.io/badge/-React-20232A?logo=react)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js)
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript" alt="JS"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript" alt="TS"/>
+  <img src="https://img.shields.io/badge/React-20232A?logo=react" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js" alt="Node"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes" alt="K8s"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3" alt="CSS3"/>
+</p>
 
 ---
 
 ## 📂 Featured Projects
-| Project | Description             | Tech              |
-|---------|-------------------------|-------------------|
-| [Todo App](https://github.com/veneka/todo-app) | A MERN stack TODO app with real-time updates | React · Node · MongoDB |
-| [SDN Simulator](https://github.com/veneka/sdn-sim) | OMNeT++ SDN campus network simulation    | C++ · OMNeT++      |
+| Project                                                                 | Tech Stack                        | Live Demo          |
+|-------------------------------------------------------------------------|-----------------------------------|--------------------|
+| [📝 MERN To-Do App](https://github.com/veneka/todo-app)                   | React · Express · MongoDB         | ✅ Live on Netlify |
+| [🌐 SDN Simulator](https://github.com/veneka/sdn-sim)                    | OMNeT++ · C++                     | —                  |
+| [🏆 Pac-Man Repo Runner](https://veneka.github.io/pacman-repo)           | HTML · CSS · JS · GitHub Pages    | 🔗 Play it Online  |
 
 ---
 
-## 📈 Stats
-![Veneka’s GitHub stats](https://github-readme-stats.vercel.app/api?username=veneka&show_icons=true)
+## 🎮 Play “Repo-Eater” Pac-Man
+<p align="center">
+  <a href="https://veneka.github.io/pacman-repo/">
+    <img src="./assets/pacman-thumb.gif" alt="Play Pac-Man" width="400"/>
+  </a>
+</p>
+> Click the thumbnail to head over—Pac-Man will gobble down your repo’s file-dots!
+
+---
+
+## 📈 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=veneka&show_icons=true&theme=radical"/>
+</p>
