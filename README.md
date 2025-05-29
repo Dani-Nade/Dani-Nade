@@ -9,7 +9,7 @@
   <img src="docs/assets/pacman-demo.gif" alt="Pac-Man Repo Eater" width="800" />
 </p>
 
-<h1 align="center">Hi 👋, I’m Daniel (Dani-Nade)</h1>
+<h1 align="center">Hi 👋, I’m Danish (Dani-Nade)</h1>
 <p align="center">
   💻 Software Engineer | Formal Methods & AI Enthusiast  <br />
   🎮 Building interactive Canvas-powered games & developer utilities  <br />
