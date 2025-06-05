@@ -1,25 +1,30 @@
 <p align="center">
-  <!-- Aesthetic Coding GIF (replace `coding.gif` with your own file or desired link) -->
-  <img src="./assets/Meow.gif" alt="Aesthetic Coding" width="800" style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
+  <!-- Aesthetic Coding GIF (ensure `assets/Meow.gif` exists in your repo) -->
+  <img
+    src="assets/Meow.gif"
+    alt="Aesthetic Coding"
+    width="800"
+    style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"
+  />
 </p>
 
-<!-- Writing Animation for Name using Readme Typing SVG -->
 <p align="center">
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=FFFFFF&width=600&height=100&lines=Hi+👋,+I%E2%80%99m+Danish" 
+  <!-- Writing Animation for Name using Readme Typing SVG -->
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=FFFFFF&width=600&height=100&lines=Hi+👋,+I%E2%80%99m+Danish"
     alt="Typing Text Animation"
     style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; padding: 10px;"
   />
 </p>
 
 <p align="center">
-  💻 <strong>Software Engineer</strong> | Flutter Developer | MERN Developer | AI enthusiast <br />
-  🎮 Building interactive Websites & Mobile Applications  <br />
+  💻 <strong>Software Engineer</strong> | Flutter Developer | MERN Developer | AI Enthusiast<br />
+  🎮 Building interactive Websites & Mobile Applications<br />
 </p>
 
 <p align="center">
   <!-- Social & Workflow Badges -->
-  <a href="https://linkedin.com/in/Dani-Nade" target="_blank" style="margin: 0 12px;">
+  <a href="https://www.linkedin.com/in/danish-nadeem-4256b72a1/" target="_blank" style="margin: 0 12px;">
     <img src="https://img.shields.io/badge/🔗-LinkedIn-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn Badge" />
   </a>
   <a href="https://github.com/Dani-Nade" target="_blank" style="margin: 0 12px;">
@@ -32,15 +37,15 @@
 ## 📊 GitHub Stats & Top Languages
 
 <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=Dani-Nade&show_icons=true&theme=dark&hide_title=true&border_radius=12&card_width=380" 
-    alt="GitHub Stats" 
-    style="box-shadow: 0 4px 10px rgba(0,0,0,0.3);" 
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Dani-Nade&show_icons=true&theme=dark&hide_title=true&border_radius=12&card_width=380"
+    alt="GitHub Stats"
+    style="box-shadow: 0 4px 10px rgba(0,0,0,0.3); margin-right: 16px;"
   />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=Dani-Nade&layout=compact&theme=dark&hide_title=true&border_radius=12&card_width=320" 
-    alt="Top Languages" 
-    style="margin-left: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" 
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=Dani-Nade&layout=compact&theme=dark&hide_title=true&border_radius=12&card_width=320"
+    alt="Top Languages"
+    style="box-shadow: 0 4px 10px rgba(0,0,0,0.3);"
   />
 </p>
 
@@ -70,7 +75,7 @@
 
 ## 📖 About Me
 
-<p align="justify" style="max-width: 900px; margin: auto; line-height: 1.6;">
+<p align="justify" style="max-width: 900px; margin: 0 auto; line-height: 1.6;">
   🔭 I’m currently building <strong>MiniForge</strong>: a MiniLang workbench with ANTLR, SSA, Z3 & CFG visualization.<br />
   🌱 Learning Machine Learning, Deep Learning, and AI-driven Web Development (TensorFlow, PyTorch…).<br />
   💬 Ask me about Formal Methods, Graph Algorithms, Kubernetes, Docker, and DevOps.<br />
@@ -78,8 +83,8 @@
 </p>
 
 <p align="center" style="margin-top: 24px;">
-  <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&width=600&lines=%22Code+is+poetry,+but+debugging+is+a+horror+story.%22" 
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&width=600&lines=%22Code+is+poetry,+but+debugging+is+a+horror+story.%22"
     alt="Typing SVG"
     style="border-radius: 8px; background: #1e1e1e; padding: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"
   />
