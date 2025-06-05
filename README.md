@@ -1,4 +1,12 @@
 <p align="center">
+  <!-- Writing Animation for Name using Readme Typing SVG -->
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=FFFFFF&width=600&height=100&lines=Hi+👋,+I%E2%80%99m+Danish"
+    alt="Typing Text Animation"
+    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; padding: 10px;"
+  />
+</p>
+<p align="center">
   <!-- Aesthetic Coding GIF (ensure `assets/Meow.gif` exists in your repo) -->
   <img
     src="assets/Meow.gif"
@@ -8,14 +16,6 @@
   />
 </p>
 
-<p align="center">
-  <!-- Writing Animation for Name using Readme Typing SVG -->
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=FFFFFF&width=600&height=100&lines=Hi+👋,+I%E2%80%99m+Danish"
-    alt="Typing Text Animation"
-    style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; padding: 10px;"
-  />
-</p>
 
 <p align="center">
   💻 <strong>Software Engineer</strong> | Flutter Developer | MERN Developer | AI Enthusiast<br />
@@ -28,7 +28,7 @@
     <img src="https://img.shields.io/badge/🔗-LinkedIn-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn Badge" />
   </a>
   <a href="https://instagram.com/YourInstagramUsername" target="_blank" style="margin: 0 8px;">
-    <img src="https://img.shields.io/badge/📸-Instagram-E4405F?logo=instagram&style=for-the-badge" alt="Instagram Badge" />
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&style=for-the-badge" alt="Instagram Badge" />
   </a>
   <a href="https://twitter.com/YourTwitterHandle" target="_blank" style="margin: 0 8px;">
     <img src="https://img.shields.io/badge/🐦-Twitter-1DA1F2?logo=twitter&style=for-the-badge" alt="Twitter Badge" />
@@ -67,8 +67,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="40" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" alt="Rust" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android Studio" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" width="40" />&nbsp;
@@ -83,8 +81,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" alt="Premiere Pro" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" alt="After Effects" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" alt="GIMP" width="40" />&nbsp;
-  <img src="https://img.shields.io/badge/SQL-Queries-00758F?style=flat-square&logo=postgresql" alt="SQL" />&nbsp;
-  <img src="https://img.shields.io/badge/Database-Management-4DB33D?style=flat-square&logo=verdaccio" alt="Database" />
 </p>
 
 ---
