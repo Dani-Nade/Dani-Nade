@@ -1,20 +1,20 @@
 <p align="center">
   <!-- Aesthetic Coding GIF (replace `coding.gif` with your own file or desired link) -->
-  <img src="docs/assets/coding.gif" alt="Aesthetic Coding" width="800" style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
+  <img src="./assets/Meow.gif" alt="Aesthetic Coding" width="800" style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" />
 </p>
 
 <!-- Writing Animation for Name using Readme Typing SVG -->
 <p align="center">
   <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=FFFFFF&width=600&height=100&lines=Hi+👋,+I%E2%80%99m+Danish+(Dani-Nade)" 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=48&pause=1000&color=FFFFFF&width=600&height=100&lines=Hi+👋,+I%E2%80%99m+Danish" 
     alt="Typing Text Animation"
     style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; padding: 10px;"
   />
 </p>
 
 <p align="center">
-  💻 <strong>Software Engineer</strong> | Formal Methods & AI Enthusiast  <br />
-  🎮 Building interactive Canvas-powered games & developer utilities  <br />
+  💻 <strong>Software Engineer</strong> | Flutter Developer | MERN Developer | AI enthusiast <br />
+  🎮 Building interactive Websites & Mobile Applications  <br />
 </p>
 
 <p align="center">
@@ -63,7 +63,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="40" />&nbsp;
-  <img src="https://img.shields.io/badge/SMT-Solvers-lightgrey?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAACXZwQWcAAAAgAAAAIAAb9zWaAAAAB3RJTUUH5QESCyoOUC5QWwAAAeNJREFUSMd1kz9rFFUYxX/vuvKjUxLpVEcQghIFVINFS2hCVCr+giFqFV1EVaBRaq0foIYpIgoKEgigiLSoiUDKR+EAQCqyu0lKBEUeSczM7OzJmXOPnXN7czJt/v53zvOee366xRXiamSr5GvAcEabA8cCEMHgVyYA0D8+e/o5VEyCCqM6csa6Eqtv4RhUQAIvAX6LhgHn1XABIZxdE5i2gd3eO4ctAAuK8DUINAp4jbhKBwEzd8WBbEk0zqysyUzZdYxJg+ahQoEzwZ1Z+7QVenhGk4mODs4nmd7Fs0YQwBHhvuBt4q2NISj4KQcrfwARPCP0S0akkH9HQSAmQYoMUKJLxU0vA30AxOEENJ4PJzWPgG4N5u6b1JjEryAdSMyZUCbLOQBhYQlZmSeHTjaVkFVlYop0XBQyYwpERb3nrymokvMZ5+adXb+VkJbjphapJewiX3eYk62kZCA70sMTyNFZ5krVlhPG5zgChbQanAXtSgXlx+UUq5k3deZ9EhOUMivQmpGzWMMfwRPj66yU704A4ebeQqf6A0n4pI5CuaI4YCcAF4F79f7BSMgTXMVMeNQ9jIyFlkqxg1LNlIZGlYhIeOocJjRNzlS+ogN/SuAMIurch9tZwJrGsg5mv9QxyFkyz2kTEpUvYQ3A4ieyoFyfC0ZaoI/7cEd2V2IL0TPpHiKk3gB1sF8Frgm1rEqitgL0t7WBoZfXZ1YPEk8a6T+6QvLFIq7JBdV3GsuayMZ1OWr0YG/ZH2knKuOwd1OvCBrbu/yMblFOucap+0s6+ggH3qZPtH+bgHp/+Pn/8BaY9+leOHtHDQAAAABJRU5ErkJggg==" alt="SMT Solvers" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="40" />
 </p>
 
