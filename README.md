@@ -24,11 +24,15 @@
 
 <p align="center">
   <!-- Social & Workflow Badges -->
-  <a href="https://www.linkedin.com/in/danish-nadeem-4256b72a1/" target="_blank" style="margin: 0 12px;">
+  <a href="https://www.linkedin.com/in/danish-nadeem-4256b72a1/" target="_blank" style="margin: 0 8px;">
     <img src="https://img.shields.io/badge/🔗-LinkedIn-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn Badge" />
   </a>
-  <a href="https://github.com/Dani-Nade" target="_blank" style="margin: 0 12px;">
-    <img src="https://img.shields.io/badge/🐙-GitHub-black?logo=github&style=for-the-badge" alt="GitHub Badge" />
+  <a href="https://instagram.com/YourInstagramUsername" target="_blank" style="margin: 0 8px;">
+    <img src="https://img.shields.io/badge/📸-Instagram-E4405F?logo=instagram&style=for-the-badge" alt="Instagram Badge" />
+  </a>
+  <a href="https://twitter.com/YourTwitterHandle" target="_blank" style="margin: 0 8px;">
+    <img src="https://img.shields.io/badge/🐦-Twitter-1DA1F2?logo=twitter&style=for-the-badge" alt="Twitter Badge" />
+  </a>
   </a>
 </p>
 
@@ -66,9 +70,21 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" alt="Rust" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android Studio" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" alt="Dart" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" />&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" width="40" />&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" alt="Illustrator" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" alt="Premiere Pro" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg" alt="After Effects" width="40" />&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" alt="GIMP" width="40" />&nbsp;
+  <img src="https://img.shields.io/badge/SQL-Queries-00758F?style=flat-square&logo=postgresql" alt="SQL" />&nbsp;
+  <img src="https://img.shields.io/badge/Database-Management-4DB33D?style=flat-square&logo=verdaccio" alt="Database" />
 </p>
 
 ---
@@ -79,7 +95,7 @@
   🔭 I’m currently building <strong>MiniForge</strong>: a MiniLang workbench with ANTLR, SSA, Z3 & CFG visualization.<br />
   🌱 Learning Machine Learning, Deep Learning, and AI-driven Web Development (TensorFlow, PyTorch…).<br />
   💬 Ask me about Formal Methods, Graph Algorithms, Kubernetes, Docker, and DevOps.<br />
-  📫 How to reach me: <a href="mailto:danis@example.com">danis@example.com</a> | <a href="https://linkedin.com/in/Dani-Nade" target="_blank">LinkedIn</a>
+  📫 How to reach me: <a href="mailto:danishnadeem1603@gmail.com">danishnadeem1603@gmail.com</a> | <a href="https://linkedin.com/in/Dani-Nade" target="_blank">LinkedIn</a>
 </p>
 
 <p align="center" style="margin-top: 24px;">
