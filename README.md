@@ -91,7 +91,7 @@
   🔭 I’m currently building <strong>MiniForge</strong>: a MiniLang workbench with ANTLR, SSA, Z3 & CFG visualization.<br />
   🌱 Learning Machine Learning, Deep Learning, and AI-driven Web Development (TensorFlow, PyTorch…).<br />
   💬 Ask me about Formal Methods, Graph Algorithms, Kubernetes, Docker, and DevOps.<br />
-  📫 How to reach me: <a href="mailto:danishnadeem1603@gmail.com">danishnadeem1603@gmail.com</a> | <a href="https://linkedin.com/in/Dani-Nade" target="_blank">LinkedIn</a>
+  📫 How to reach me: <a href="mailto:danishnadeem1603@gmail.com">danishnadeem1603@gmail.com</a>
 </p>
 
 <p align="center" style="margin-top: 24px;">
